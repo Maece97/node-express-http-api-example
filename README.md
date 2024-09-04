@@ -4,6 +4,16 @@ To start the API, run `npm run serve`.
 
 ## Basic Tasks
 
+### Information:
+You will need Postman to interact with this application: https://www.postman.com/downloads/
+Settings:
+- HTTP Type: POST
+- Body => Select "RAW" from the radio buttons and "JSON" on the selection menu on the right
+- Format your parameters like this:
+`{
+    "text": "Hello World"
+}`
+
 ### Task 1 - TextManipulation (Easy):
 
 In this task, we create a service to reverse a string.
